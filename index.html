@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <title>Results summary component</title>
+
+    <link rel="stylesheet" href="./design/css/style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <div class="card__result">
+          <h2 class="heading--secondary heading__result">Your Result</h2>
+          <p class="result">
+            <span> 76 </span>
+            <span> of 100 </span>
+          </p>
+          <div class="card__appreciation">
+            <p class="heading__appreciation">Great</p>
+            <p class="appreciation__summary">
+              You scored higher than 65% of the people who have taken these
+              tests.
+            </p>
+          </div>
+        </div>
+        <div class="card__summary">
+          <h2 class="heading--secondary heading__summary">Summary</h2>
+          <div class="card__aspects">
+            <div class="card__aspect card__aspect--1">
+              <div class="aspect__criterion">
+                <img
+                  src="./assets/images/icon-reaction.svg"
+                  alt="Icon representing reaction"
+                  class="aspect__icon"
+                />
+                <p class="aspect__name">Reaction</p>
+              </div>
+              <p class="aspect__score">
+                <span class="obtained__score">80</span> / 100
+              </p>
+            </div>
+            <div class="card__aspect card__aspect--2">
+              <div class="aspect__criterion">
+                <img
+                  src="./assets/images/icon-memory.svg"
+                  alt="Icon representing memory"
+                  class="aspect__icon"
+                />
+                <p class="aspect__name">Memory</p>
+              </div>
+              <p class="aspect__score">
+                <span class="obtained__score">92</span> / 100
+              </p>
+            </div>
+            <div class="card__aspect card__aspect--3">
+              <div class="aspect__criterion">
+                <img
+                  src="./assets/images/icon-verbal.svg"
+                  alt="Icon representing verbal"
+                  class="aspect__icon"
+                />
+                <p class="aspect__name">Verbal</p>
+              </div>
+              <p class="aspect__score">
+                <span class="obtained__score">61</span> / 100
+              </p>
+            </div>
+            <div class="card__aspect card__aspect--4">
+              <div class="aspect__criterion">
+                <img
+                  src="./assets/images/icon-visual.svg"
+                  alt="Icon representing visual"
+                  class="aspect__icon"
+                />
+                <p class="aspect__name">Visual</p>
+              </div>
+              <p class="aspect__score">
+                <span class="obtained__score">72</span> / 100
+              </p>
+            </div>
+          </div>
+          <button class="btn">
+            <span> Continue </span>
+          </button>
+        </div>
+      </div>
+
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by
+        <a href="https://github.com/AbdulBasit619" target="_blank"
+          >Abdul Basit</a
+        >.
+      </div>
+    </div>
+  </body>
+</html>
